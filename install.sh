@@ -128,10 +128,10 @@ _task "disable system logging"
     _cmd 'systemctl mask rsyslog.service'
 
 # description
-_task "disable snapd"
-    _cmd 'systemctl stop snapd.service'
-    _cmd 'systemctl disable snapd.service'
-    _cmd 'systemctl mask snapd.service'
+#_task "disable snapd"
+#    _cmd 'systemctl stop snapd.service'
+#    _cmd 'systemctl disable snapd.service'
+#    _cmd 'systemctl mask snapd.service'
 
 # firewall
 _task "configure firewall"
